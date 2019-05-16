@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 02 11:55:11 CEST 2019
+@aaaaaclientproxy.basf.net\:8080>@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1556790911192
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1556628327619
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.maven.plugins\:maven-site-plugin\:pom\:3.3 from/to central (https\://repo.maven.apache.org/maven2)\: aaaaaclientproxy.basf.net
+@clientproxy.basf.net\:8080>@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1556790697155

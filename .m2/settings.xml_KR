@@ -1,0 +1,184 @@
+<settings xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/settings-1.0.0.xsd">
+
+    <proxies>
+       <proxy>
+           <active>true</active>
+           <protocol>http</protocol>
+           <host>http-proxy.zx.basf-ag.de</host>
+           <port>8080</port>
+       </proxy>
+   </proxies>
+
+    <localRepository>c:/util/develop/.m2/repository/</localRepository>
+
+	<!--mirrors>
+		<mirror>
+			<id>gvwrep</id>
+			<mirrorOf>external:*</mirrorOf>
+				<url>http://maven.basf-ag.de:8081/repo</url>
+		</mirror>
+	</mirrors-->
+	
+    <!-- password configs -->
+   <servers>
+       <server>
+           <id>gvwrep</id>
+           <username>gvwdep</username>
+           <password>cobalt06</password>
+       </server>
+    <server>
+        <id>basf-snapshots</id>
+    	<username>gvwdep</username>
+        <password>cobalt06</password>
+    </server>
+    <server>
+    	<id>basf-releases</id>
+	   <username>gvwdep</username>
+	   <password>cobalt06</password>
+    </server>
+	<server>
+    	<id>ext-releases</id>
+	   <username>gvwdep</username>
+	   <password>cobalt06</password>
+    </server>
+    <server>
+    	<id>queport</id>
+	   <username>basf_gvwi</username>
+	   <password>Fast4basf.!</password>
+    </server>
+
+  
+
+   
+   
+   
+
+
+
+<server>
+
+<id>twigkit.com</id>
+
+<username>evaluator</username>
+
+<password>AP6YhQQWq5cqu85Eu5JwMZnJk48</password>
+
+</server>
+
+
+<server>
+
+<id>twigkit.com-releases</id>
+
+<username>evaluator</username>
+
+<password>AP6YhQQWq5cqu85Eu5JwMZnJk48</password>
+
+</server>
+
+
+<server>
+
+<id>twigkit.com-snapshots</id>
+
+<username>evaluator</username>
+
+<password>AP6YhQQWq5cqu85Eu5JwMZnJk48</password>
+</server>
+
+ </servers>
+   
+   <!-- maven profiles -->
+ 
+<profiles>
+<profile>
+            <id>basf</id>
+            
+            <repositories>
+                  <repository>
+                        <id>central</id>
+                        <url>http://maven.basf-ag.de:8081/repo</url>
+                        <snapshots>
+                              <enabled>false</enabled>
+                        </snapshots>
+                  </repository>
+                  <repository>
+                        <id>snapshots</id>
+                        <url>http://maven.basf-ag.de:8081/repo</url>
+                        <releases>
+                              <enabled>false</enabled>
+                        </releases>
+                  </repository>
+				  <repository>
+                        <id>ext-releases</id>
+                        <url>http://maven.basf-ag.de:8081/repo</url>
+                        <releases>
+                              <enabled>true</enabled>
+                        </releases>
+                  </repository>
+				  <repository>
+                        <id>queport</id>
+                        <url>http://maven.queport.com/archiva/repository/all</url>
+                        <snapshots>
+                              <enabled>true</enabled>
+                        </snapshots>
+                        <releases>
+                              <enabled>true</enabled>
+                        </releases>
+                  </repository>
+            </repositories>
+            <pluginRepositories>
+                  <pluginRepository>
+                        <id>central</id>
+                        <url>http://maven.basf-ag.de:8081/repo</url>
+                        <snapshots>
+                              <enabled>false</enabled>
+                        </snapshots>
+                  </pluginRepository>
+                  <pluginRepository>
+                        <id>snapshots</id>
+                        <url>http://maven.basf-ag.de:8081/repo</url>
+                        <releases>
+                              <enabled>false</enabled>
+                        </releases>
+                  </pluginRepository>
+            </pluginRepositories>
+      </profile>
+      <profile>
+            <id>dev</id>
+              <repositories>
+                  
+                  <repository>
+                        <id>queport</id>
+                        <url>http://maven.queport.com/archiva/repository/all</url>
+                        <snapshots>
+                              <enabled>true</enabled>
+                        </snapshots>
+                        <releases>
+                              <enabled>true</enabled>
+                        </releases>
+                  </repository>
+            </repositories>
+            <pluginRepositories>
+                  
+                 <pluginRepository>
+                        <id>queport</id>
+                        <url>http://repo2.b-s-s.de/archiva/repository/all/</url>
+                        <snapshots>
+                              <enabled>true</enabled>
+                        </snapshots>
+                        <releases>
+                              <enabled>true</enabled>
+                        </releases>
+                  </pluginRepository>
+            </pluginRepositories>
+      </profile>
+</profiles>
+
+    <activeProfiles>
+        <activeProfile>dev</activeProfile>
+    </activeProfiles>
+   <!-- set active profiles -->
+ 
+</settings>

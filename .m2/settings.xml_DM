@@ -1,0 +1,14 @@
+<settings>
+  <proxies>
+ <proxy>
+   <id>basf</id>
+   <active>true</active>
+   <protocol>http</protocol>
+   <host>clientproxy.basf.net</host>
+   <port>8080</port>
+   <nonProxyHosts>basf-ag.de</nonProxyHosts>
+  </proxy>
+ </proxies>
+
+ 
+</settings>

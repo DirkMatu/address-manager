@@ -1,0 +1,48 @@
+{
+  "ConfigVersion": 3,
+  "Target": "https://api.cf.eu10.hana.ondemand.com",
+  "APIVersion": "2.133.0",
+  "AuthorizationEndpoint": "https://login.cf.eu10.hana.ondemand.com",
+  "DopplerEndPoint": "wss://doppler.cf.eu10.hana.ondemand.com:443",
+  "UaaEndpoint": "https://uaa.cf.eu10.hana.ondemand.com",
+  "RoutingAPIEndpoint": "",
+  "AccessToken": "bearer eyJhbGciOiJSUzI1NiIsImprdSI6Imh0dHBzOi8vdWFhLmNmLmV1MTAuaGFuYS5vbmRlbWFuZC5jb20vdG9rZW5fa2V5cyIsImtpZCI6ImtleS0xIiwidHlwIjoiSldUIn0.eyJqdGkiOiI3ZTg2YWMwNjc5MmM0NzY3YjM3OTQ3MTQxZGZiYTI4NiIsInN1YiI6Ijg0OGZlOTE4LWI0NDItNDNmNS04ZTJhLWVhZWU5N2VmNzdjYiIsInNjb3BlIjpbImNsb3VkX2NvbnRyb2xsZXIucmVhZCIsInBhc3N3b3JkLndyaXRlIiwiY2xvdWRfY29udHJvbGxlci53cml0ZSIsIm9wZW5pZCIsInVhYS51c2VyIl0sImNsaWVudF9pZCI6ImNmIiwiY2lkIjoiY2YiLCJhenAiOiJjZiIsInJldm9jYWJsZSI6dHJ1ZSwiZ3JhbnRfdHlwZSI6InBhc3N3b3JkIiwidXNlcl9pZCI6Ijg0OGZlOTE4LWI0NDItNDNmNS04ZTJhLWVhZWU5N2VmNzdjYiIsIm9yaWdpbiI6InNhcC5pZHMiLCJ1c2VyX25hbWUiOiJkaXJrLmEubWF0dXN6Y3pha0BiYXNmLmNvbSIsImVtYWlsIjoiZGlyay5hLm1hdHVzemN6YWtAYmFzZi5jb20iLCJhdXRoX3RpbWUiOjE1NTc0MDkzMTAsInJldl9zaWciOiI2Y2Y4NmY0ZSIsImlhdCI6MTU1NzQxMDAwNSwiZXhwIjoxNTU3NDEwNjA1LCJpc3MiOiJodHRwczovL3VhYS5jZi5ldTEwLmhhbmEub25kZW1hbmQuY29tL29hdXRoL3Rva2VuIiwiemlkIjoidWFhIiwiYXVkIjpbImNsb3VkX2NvbnRyb2xsZXIiLCJwYXNzd29yZCIsImNmIiwidWFhIiwib3BlbmlkIl19.Qd-ZRjNQz2Tbu1Bctp7Hng6_gPSZgRX3BXRZupZx9JmZtfzGaUI2l_IjAc0rQ1R2Trhryq_Iy8Uiu73yy_-K3N6tFbywYtjVZ5qPG5tqNflE972pOBxaRMlKhNxpC0bRSIawZBBPBDV6V7KKrcDfZN2XJUcQAml76fVgD5ZjZ7iXCKX1jZyqQcQxosG0UpV4s_01_XYAoL7DrbIui8WIQgEFEPb3KB0VCdVIE_1elMuU95RwVvqcGtVtbt7I08SaKLNhDVD0sgxnAPvh3xiRsBv0lx4ZZ3lQ_kGbKKvZZ6r_GLvgfXh70Wgvkjaa4qCPirpsI5x-V7h1s11Yu7xBAm1c-HF9UCNxzpUuCaICGvlBSzONzbBou_0JpZR9FUC_BHYqfc7FB5iCcKogbqZtz6FbequGy6yVamWo0pc_yaHqK_7Am3JttOFgvJy7ZmOfBKgz5gAE5AEciO1UQfR_IPrr-roOIN5YTtYldE9yD3XzZKo8QpvP0IPrOP2tF8YHo9Xz-XzpESK6iMnxOsnFOiOdBL7GxR-AErqjUtzVtylZmN_cMMp5f-zjDzvlSp08bxiLWPnx8ef0mFcCuo5WMI0ddmvQlsAiANa2QXCMrGeIfrGs0bfYOlTI7HW6dsZiVST5FoYrurkqvX_cwG74jPVE0QWmu8jsuJd9w0VgbTU",
+  "SSHOAuthClient": "ssh-proxy",
+  "UAAOAuthClient": "cf",
+  "UAAOAuthClientSecret": "",
+  "UAAGrantType": "",
+  "RefreshToken": "bc05b04267cd4627b31e722b026a7ee8-r",
+  "OrganizationFields": {
+    "GUID": "2838fcb6-e464-49e8-a8bc-59bcd24883a1",
+    "Name": "P1940003603trial_trial",
+    "QuotaDefinition": {
+      "guid": "",
+      "name": "",
+      "memory_limit": 0,
+      "instance_memory_limit": 0,
+      "total_routes": 0,
+      "total_services": 0,
+      "non_basic_services_allowed": false,
+      "app_instance_limit": -1,
+      "total_reserved_route_ports": 0
+    }
+  },
+  "SpaceFields": {
+    "GUID": "e311d264-9b7d-4787-96d1-9f72cffd7aa3",
+    "Name": "dev",
+    "AllowSSH": true
+  },
+  "SSLDisabled": false,
+  "AsyncTimeout": 0,
+  "Trace": "",
+  "ColorEnabled": "",
+  "Locale": "",
+  "PluginRepos": [
+    {
+      "Name": "CF-Community",
+      "URL": "https://plugins.cloudfoundry.org"
+    }
+  ],
+  "MinCLIVersion": "",
+  "MinRecommendedCLIVersion": ""
+}

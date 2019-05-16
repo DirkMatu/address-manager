@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu May 02 15:39:19 CEST 2019
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.maven.plugins\:maven-assembly-plugin\:pom\:2.2-beta-5 from/to central (https\://repo.maven.apache.org/maven2)\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+@clientproxy.basf.net\:8080>@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1556804359724
